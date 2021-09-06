@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Contador Online</h1>
+    </header>
+    
+    <section>
+        <div>
+            <p>Coloque um número que o contador contará até:
+            <input type="number" name="numerocontar" id="numerocontar"></p>
+            <p>Coloque um número que o contador inicalizará contando:</p>
+            <input type="number" name="nummin" id="nummin">
+            <p  id='button'><input type="button" value="Contar" onclick='contar()'></p>
+        </div>
+
+        <div>
+
+        </div>
+    </section>
+
+    <section id='section2'>
+        <div id='numerocontado'></div>
+    </section>
+
+    <p id='manual' onclick="manual()">Como utilizar?</p>
+
+    <footer>
+        <p>otaviorzx</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
